@@ -86,5 +86,6 @@ if (process.env.NODE_ENV !== 'production') {
   
 var PORT = process.env.PORT || 3000;
 
+app.listen(PORT, console.log(`Server started on ${PORT}`));
 
   app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
