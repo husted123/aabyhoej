@@ -84,7 +84,7 @@ if (process.env.NODE_ENV !== 'production') {
     next()
   }
   
- // app.listen(3000)
+var PORT = process.env.PORT || 3000;
 
 
   app.use("/stylesheets",express.static(__dirname + "/stylesheets"));
