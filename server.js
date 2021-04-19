@@ -11,7 +11,8 @@ if (process.env.NODE_ENV !== 'production') {
   const methodOverride = require('method-override')
   
 
-
+  var http = require('http');
+  var server = http.Server(app);
   var PORT = process.env.PORT || 3000;
   
   server.listen(PORT, function() {
