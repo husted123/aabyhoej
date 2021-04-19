@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,11 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.7"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husted123/login-aby.git"
   },
   "description": ""
 }
