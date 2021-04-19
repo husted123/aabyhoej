@@ -17,7 +17,6 @@
   server.listen(PORT, function() {
     console.log('Chat server running');
   });
-  
 
 
   const initializePassport = require('./passport-config')
