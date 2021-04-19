@@ -1,0 +1,10 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}

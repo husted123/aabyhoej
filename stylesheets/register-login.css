@@ -1,0 +1,18 @@
+.card{
+    align-items: center;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px;
+    background-color: grey;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 32px;
+}
+

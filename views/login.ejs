@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/stylesheets/register-login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+<div class="card">
+<h1>Login</h1>
+<form action="/login" method="POST">
+<% if (messages.error) { %>
+<%= messages.error %>
+<% } %>
+
+<div>
+    <label for="email"> Email</label> <br>
+    <input type="text" id="email" name="email">
+</div>
+
+<div>
+    <label for="password"> Password</label> <br>
+    <input type="password" id="password" name="password">
+</div>
+<button type="submit">Login</button>
+</form>
+<a href="/register">Register</a>
+
+</div>
+</body>
+</html>
